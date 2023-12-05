@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+ 
+nav {
+    background-color: #333;
+}
+ 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    margin: 0;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+ 
+nav a:hover {
+    background-color: #555;
+}
+ 
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+ 
+.featured-rides {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ 
+.featured-ride {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.featured-ride h3 {
+    color: #3498db;
+}
+ 
+.featured-ride p {
+    margin: 5px 0;
+}
+ 
+.featured-ride a {
+    display: block
+}

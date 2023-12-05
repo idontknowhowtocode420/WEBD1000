@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testingride.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-zfr/ZtGOMqIBoUyo+g9P9+bXjxWlX8rCCqQ5EtLuek6krSCKVr+IrKCr/0hG/tRXL/cv4yVEZtPQcTsYhJ2jVpA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ride Sharing App</title>
+</head>
+<body>
+    <header>
+        <h1>Ride Sharing App</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#find-ride">Find a Ride</a></li>
+                <li><a href="#offer-ride">Offer a Ride</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="main-content">
+        <p>Welcome to our ride-sharing platform. Find a ride or offer one to share the journey!</p>
+        <div class="featured-rides">
+            <div class="featured-ride">
+                <h3>Scenic Road Trip</h3>
+                <p>Driver: Jane Smith</p>
+                <p>Departure: City X</p>
+                <p>Destination: City Y</p>
+                <p>Date: July 1, 2023</p>
+                <p>Seats Available: 2</p>
+                <a href="#">Contact Driver <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <!-- Add more featured rides as needed -->
+        </div>
+    </section>
+    <section id="find-ride" class="main-content">
+        <h2>Find a Ride</h2>
+        <div class="ride-listing">
+            <div class="ride-info">
+                <h3>City-to-City Ride</h3>
+                <p>Driver: John Doe</p>
+                <p>Departure: City A</p>
+                <p>Destination: City B</p>
+                <p>Date: June 15, 2023</p>
+                <p>Seats Available: 3</p>
+            </div>
+            <div class="ride-action">
+                <a href="#">Contact Driver <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <!-- Add more ride listings as needed -->
+    </section>
+    <section id="offer-ride" class="main-content">
+        <h2>Offer a Ride</h2>
+        <form>
+            <label for="driver-name">Your Name:</label>
+            <input type="text" id="driver-name" name="driver-name" required>
+ 
+            <label for="departure">Departure City:</label>
+            <input type="text" id="departure" name="departure" required>
+ 
+            <label for="destination">Destination City:</label>
+            <input type="text" id="destination" name="destination" required>
+ 
+            <label for="date">Departure Date:</label>
+            <input type="date" id="date" name="date" required>
+ 
+            <label for="seats">Available Seats:</label>
+            <input type="number" id="seats" name="seats" min="1" required>
+ 
+            <button type="submit">Offer Ride</button>
+        </form>
+    </section>
+    <section id="login" class="main-content">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+ 
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+ 
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <section id="register" class="main-content">
+        <h2>Register</h2>
+        <form>
+            <label for="register-username">Username:</label>
+            <input type="text" id="register-username" name="register-username" required>
+ 
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" name="register-password" required>
+ 
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+ 
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    <section id="about" class="main-content">
+        <h2>About Us</h2>
+        <p>Learn more about our mission and team.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Ride Sharing App</p>
+    </footer>
+</body>
+</html>
