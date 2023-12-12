@@ -106,6 +106,7 @@ h2 {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+
 }
 
 .column {
@@ -121,4 +122,8 @@ h2 {
   height: 100px;
   font-size: xx-large;
   font-family: monospace, Lucida Console;
+  justify-content: center;
 }
+
+
+
